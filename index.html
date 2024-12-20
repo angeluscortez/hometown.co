@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Home town</h1>
+     </div>
+    <button class="theme-toggle" onclick="toggleTheme()">Switch light</button>
+     <button class="cart-button" onclick="viewCart()">Cart (0)</button>
+  </header>
+  <main>
+    <section id="hoodies" class="product-section">
+      <h2>Longsleeve</h2>
+       <div class="product-list">
+        <div class="product-card">
+          <img src="https://i.ibb.co/1vyS9dg/MNLA-extra-7.jpg"alt="Longsleeve 1"> 
+          
+       <h3>Militia Longsleeve (Anthracite)</h3>
+          <p>$19.99</p>
+           <button onclick="addToCart('Militia Longsleeve in anthracite', 19.99)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+          <img src="https://i.ibb.co/mq5vvYJ/MNLA-extra-5.jpg"  alt="Longsleeve 2">
+       <h3>Milita Longsleeve (Charcoal)</h3>
+         <p>$19.99</p>
+           <button onclick="addToCart('Militia Longsleeve in charcoal', 19.99)">Add to Cart</button>
+            </div>
+         <div class="product-card">
+          <img src="https://i.ibb.co/hCP8b4Z/MNLA-extra-3.jpg"  alt="Longsleeve 3">
+       <h3>Milita Longsleeve (Fossil)</h3>
+         <p>$19.99</p>
+           <button onclick="addToCart('Militia Longsleeve in fossil', 19.99)">Add to Cart</button>
+            </div>
+         <div class="product-card">
+          <img src="https://i.ibb.co/47bdhjf/MNLA-extra-1.jpg"  alt="Longsleeve 4">
+       <h3>Milita Longsleeve (Wolf)</h3>
+         <p>$19.99</p>
+           <button onclick="addToCart('Militia Longsleeve in wolf', 19.99)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+    <section id="tees" class="product-section">
+      <h2>Graphic tee</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="https://i.ibb.co/W0rgTYL/RASTERSLANT3.jpg"  alt="T-Shirt 1">
+         <h3>Rastalant tee (Wheat)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Rastalant tee in wheat', 16.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.ibb.co/yFhQx8j/RASTERSLANT5.jpg"  alt="T-Shirt 2">
+          <h3>Rastalant tee (Cement)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Rastalant tee in cement', 16.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.ibb.co/D1fJgdG/DBTK-extra-5.jpg"  alt="T-Shirt 3">
+          <h3>Electic tee (Black)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Electic tee in black', 16.99)">Add to Cart</button>
+          </div>
+        <div class="product-card">
+          <img src="https://i.ibb.co/q71YppG/DBTK-15.jpg"  alt="T-Shirt 4">
+          <h3>Yosemite tee (Cream)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Yosemite tee in cream', 16.99)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tanktops" class="product-section">
+      <h2>Tank tops</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="https://i.ibb.co/gRfXB6p/HSO-extra-1.jpg"  alt="Tank Top 1">
+          <h3>Dagger Tank (Black)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Dagger tank in black', 16.99)">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src=<a href="https://ibb.co/DR1TtzS"><img src="https://i.ibb.co/fxXL2qP/HSO-extra-3.jpg" alt="Tank Top 2">
+          <h3>Dagger Tank (Grey)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Dagger tank in grey', 16.99)">Add to Cart</button>
+          </div>
+        <div class="product-card">
+          <img src=<a href="https://ibb.co/DR1TtzS"><img src=https://i.ibb.co/23jmrDx/HSO-extra-5.jpg"  alt="Tank Top 2">
+          <h3>Muscle Tank (Charcoal)</h3>
+          <p>$16.99</p>
+          <button onclick="addToCart('Muscle tank in charcoal', 16.99)">Add to Cart</button>
+          </div>
+        <div class="product-card">
+          <img src=<a href="https://ibb.co/DR1TtzS"><img src="https://i.ibb.co/5F85fFM/HSO-extra-7.jpg" alt="Tank Top 4">
+          <h3>Muscle tank (Off-white)</h3>
+          <p>$16.99</p>
+          <button onclick ="addToCart('Muscle tank in off-white', 16.99)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+     Welcome to Hometown! We offer a wide range of stylish and comfortable clothing for every occasion. From cozy hoodies to trendy t-shirts and tank tops, we have something for everyone. Our mission is to provide high-quality clothing that fits perfectly into your lifestyle. Shop now and upgrade your wardrobe!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Hometown. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    function addToCart(productName, productPrice) {
+      const product = { name: productName, price: productPrice };
+      cart.push(product);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      updateCartButton();
+    }
+
+    function viewCart() {
+      alert(cart.map(item => `${item.name} - $${item.price}`).join('\n') || 'Your cart is empty!');
+    }
+
+    function updateCartButton() {
+      document.querySelector('.cart-button').textContent = `Cart (${cart.length})`;
+    }
+
+    updateCartButton();  // Initialize cart button text
+  </script>
+</body>
+</html>
